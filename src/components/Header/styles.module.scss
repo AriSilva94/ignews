@@ -1,3 +1,4 @@
+
 .headerContainer {
   height: 5rem;
   border-bottom: 1px solid var(--gray-800);
@@ -29,17 +30,17 @@
         color: var(--white);
       }
 
-      & + a{
+      & + a {
         margin-left: 2rem;
       }
 
-      &.active{
+      &.active {
         color: var(--white);
         font-weight: bold;
       }
 
-      &.active::after{
-        content: '';
+      &.active::after {
+        content: "";
         height: 3px;
         border-radius: 3px 3px 0 0;
         width: 100%;
@@ -51,7 +52,7 @@
     }
   }
 
-  button{
+  button {
     margin-left: auto;
   }
 }
